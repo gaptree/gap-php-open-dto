@@ -2,6 +2,7 @@
     "name": "gap/open-dto",
     "type": "library",
     "description": "Gap Open Dto",
+    "license": "MIT",
     "keywords": [
         "gap"
     ],
