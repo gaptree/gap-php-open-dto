@@ -3,7 +3,7 @@ namespace Gap\Open\Dto;
 
 class RefreshTokenDto extends DtoBase
 {
-    public $refreshToken;
+    public $refresh;
     public $appId;
     public $userId;
     public $scope;
