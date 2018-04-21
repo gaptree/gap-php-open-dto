@@ -1,7 +1,6 @@
 <?php
 namespace Gap\Open\Dto;
 
-class DtoBase
+abstract class DtoBase extends \Gap\Dto\DtoBase
 {
-    use \Gap\Dto\MainTrait;
 }

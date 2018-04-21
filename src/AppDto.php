@@ -11,4 +11,9 @@ class AppDto extends DtoBase
     public $scope;
     public $created;
     public $changed;
+
+    public function isTrusted(): bool
+    {
+        return $this->privilege > 0;
+    }
 }

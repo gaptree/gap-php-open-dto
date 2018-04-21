@@ -1,12 +1,15 @@
 <?php
 namespace Gap\Open\Dto;
 
-class RefreshTokenDto extends DtoBase
+class RefreshTokenDto extends OAuth2Dto
 {
     public $refresh;
     public $appId;
     public $userId;
     public $scope;
-    public $expired;
-    public $created;
+
+    public function getKey(): string
+    {
+        return 'refresh-token-' . $this->refresh;
+    }
 }
