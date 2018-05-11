@@ -8,11 +8,17 @@
     "packages": [
         {
             "name": "gap/dto",
-            "version": "1.0.0",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
-                "url": "https://project.tecposter.cn/diffusion/75/gap-php-dto.git",
-                "reference": "b52e3e03fc221f4f68d619a6840eafc632d7a61b"
+                "url": "https://github.com/gaptree/gap-php-dto.git",
+                "reference": "7bf926594b7f79a0781bf3f388bbe454066f600f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gaptree/gap-php-dto/zipball/7bf926594b7f79a0781bf3f388bbe454066f600f",
+                "reference": "7bf926594b7f79a0781bf3f388bbe454066f600f",
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.1.0"
@@ -39,7 +45,7 @@
                 "dto",
                 "gap"
             ],
-            "time": "2017-12-25T09:34:39+00:00"
+            "time": "2018-03-16T06:30:16+00:00"
         }
     ],
     "packages-dev": [],

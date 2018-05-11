@@ -4,6 +4,7 @@ namespace Gap\Open\Dto;
 class AppDto extends DtoBase
 {
     public $appId;
+    public $appCode;
     public $appSecret;
     public $appName;
     public $privilege;

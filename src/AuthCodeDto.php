@@ -8,6 +8,7 @@ class AuthCodeDto extends OAuth2Dto
     public $userId;
     public $redirectUrl;
     public $scope;
+    public $status;
 
     public function getKey(): string
     {
