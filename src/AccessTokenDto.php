@@ -8,9 +8,10 @@ class AccessTokenDto extends OAuth2Dto
     public $appId;
     public $userId;
     public $scope;
+    public $idToken;
 
     public function getKey(): string
     {
-        return 'access-token-' . $this->refresh;
+        return 'access-token-' . $this->token;
     }
 }
