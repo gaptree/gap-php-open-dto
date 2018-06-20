@@ -9,6 +9,7 @@ class AccessTokenDto extends OAuth2Dto
     public $userId;
     public $scope;
     public $idToken;
+    public $info;
 
     public function getKey(): string
     {
